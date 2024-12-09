@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Bubble: Education</title>
+    <style>
+        #breathing-practice:hover {
+            background: rgba(0, 0, 0, 0.331);
+        }   
+    </style>
+</head>
+<body>
+
+    <!-- <div style="width: 100%; height: 100%; position: relative; background: #B0E0E6">
+        <div style="width: 312px; left: 94px; top: 230px; position: absolute; text-align: center; color: white; font-size: 20px; font-family: Helvetica; font-weight: 400; word-wrap: break-word">After all that education, you deserve a break! Try these quick exercises to refresh:</div>
+        <div style="width: 161px; height: 34px; left: 52px; top: 48px; position: absolute; background: white; border-radius: 10px"></div>
+        <div style="width: 211px; height: 118px; left: 27px; top: 92px; position: absolute; border-radius: 10px; border: 2px white solid"></div>
+        <div style="width: 158px; left: 54px; top: 57px; position: absolute; text-align: center; color: #B0E0E6; font-size: 15px; font-family: Helvetica; font-weight: 400; word-wrap: break-word">Reflection Exercise</div>
+        <div style="width: 188px; left: 39px; top: 137px; position: absolute; text-align: center; color: white; font-size: 12px; font-family: Helvetica; font-weight: 400; word-wrap: break-word">Write down 3 things you’ve learned so far and why they’re meaningful.</div>
+        <div style="width: 161px; height: 34px; left: 287px; top: 48px; position: absolute; background: white; border-radius: 10px"></div>
+        <div style="width: 211px; height: 118px; left: 262px; top: 92px; position: absolute; border-radius: 10px; border: 2px white solid"></div>
+        <div style="width: 158px; left: 289px; top: 57px; position: absolute; text-align: center; color: #B0E0E6; font-size: 15px; font-family: Helvetica; font-weight: 400; word-wrap: break-word">Mindful Reading</div>
+        <div style="width: 188px; left: 274px; top: 130px; position: absolute; text-align: center; color: white; font-size: 12px; font-family: Helvetica; font-weight: 400; word-wrap: break-word">Take a moment to read a non-academic book or poem to shift mental focus.</div>
+        <div style="width: 161px; height: 34px; left: 52px; top: 309px; position: absolute; background: white; border-radius: 10px"></div>
+        <div style="width: 211px; height: 118px; left: 27px; top: 353px; position: absolute; border-radius: 10px; border: 2px white solid"></div>
+        <div style="width: 158px; left: 54px; top: 318px; position: absolute; text-align: center; color: #B0E0E6; font-size: 15px; font-family: Helvetica; font-weight: 400; word-wrap: break-word">Body Stretching</div>
+        <div style="width: 188px; left: 39px; top: 391px; position: absolute; text-align: center; color: white; font-size: 12px; font-family: Helvetica; font-weight: 400; word-wrap: break-word">Perform neck stretches and shoulder rolls to release built-up tension.</div>
+        <div style="width: 161px; height: 34px; left: 287px; top: 309px; position: absolute; background: white; border-radius: 10px"></div>
+        <div style="width: 211px; height: 118px; left: 262px; top: 353px; position: absolute; border-radius: 10px; border: 2px white solid"></div>
+        <div style="width: 158px; left: 289px; top: 318px; position: absolute; text-align: center; color: #B0E0E6; font-size: 15px; font-family: Helvetica; font-weight: 400; word-wrap: break-word">Breathing Practice</div>
+        <div style="width: 188px; left: 274px; top: 398px; position: absolute; text-align: center; color: white; font-size: 12px; font-family: Helvetica; font-weight: 400; word-wrap: break-word">Try the 4-7-8 breathing technique to refocus and calm your mind.</div>
+        
+        <a href="design.html">
+            <div style="left: 26px; top: 243px; position: absolute; color: white; font-size: 35px;">&#8592</div>
+        </a>
+        <a href="gaming.html">
+            <div style="left: 450px; top: 243px; position: absolute; color: white; font-size: 35px;">&#8594</div>
+        </a>
+        <a href="../index.html">
+            <div style="left: 243px; top: 24px; position: absolute; color: white; font-size: 35px;">&#8962</div>
+        </a>
+    </div> -->
+
+    <div class="container">
+        <div id="start">After all that education, you deserve a break! Try these quick exercises to refresh:</div>
+
+        <div class="exercise-card" id="reflection-exercise">
+            <div class="card-title">Reflection Exercise</div>
+            <div class="card-description">Write down 3 things you’ve learned so far and why they’re meaningful.</div>
+        </div>
+
+        <div class="exercise-card" id="mindful-reading">
+            <div class="card-title">Mindful Reading</div>
+            <div class="card-description">Take a moment to read a non-academic book or poem to shift mental focus.</div>
+        </div>
+
+        <div class="exercise-card" id="body-stretching">
+            <div class="card-title">Body Stretching</div>
+            <div class="card-description">Perform neck stretches and shoulder rolls to release built-up tension.</div>
+        </div>
+
+        <a href="breathing-practice/index.html" target="_blank">
+            <div class="exercise-card" id="breathing-practice">
+                <div class="card-title">Breathing Practice</div>
+                <div class="card-description">Try the 4-7-8 breathing technique to refocus and calm your mind.</div>
+            </div>
+        </a>
+
+        <a href="design.html" class="nav-arrow" id="left-arrow">&#8592;</a>
+        <a href="gaming.html" class="nav-arrow" id="right-arrow">&#8594;</a>
+        <a href="../index.html" class="nav-arrow" id="home-icon">&#8962;</a>
+    </div>
+
+
+</body>
+</html>

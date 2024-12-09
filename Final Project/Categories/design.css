@@ -1,0 +1,93 @@
+body {
+    width: 500px;
+    height: 500px;
+    background: #B0E0E6;
+    border: #ffffff 10px dotted;
+    border-radius: 20px;
+    padding: 2.5%;
+    font-family: "Quicksand", sans-serif;
+    top: 38.5%;
+    position: absolute;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+/* After all that designing, you deserve a break! Try these quick exercises to refresh: */
+#start{
+    color: white;
+    font-size: 20px;
+    font-family: Helvetica;
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+/* Eye Reset */
+#exone{
+    color: #B0E0E6;
+    font-size: 15px;
+    font-family: Helvetica;
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+/* Use the 20-20-20 rule—look at something 20 feet away for 20 seconds every 20 minutes. */
+#exonedirec{
+    color: white;
+    font-size: 12px;
+    font-family: Helvetica;
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+/* Hand Stretches */
+#extwo{
+    color: #B0E0E6;
+    font-size: 15px;
+    font-family: Helvetica;
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+/* Open and close your fists slowly, or try wrist rolls to relieve tension from repetitive design work. */
+#extwodirec{
+    color: white;
+    font-size: 12px;
+    font-family: Helvetica;
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+/* Color Reset */
+#exthree{
+    color: #B0E0E6;
+    font-size: 15px;
+    font-family: Helvetica;
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+/* Look at neutral colors or soft pastels to give your eyes a break from bright and saturated hues. */
+#exthreedirec{
+    color: white;
+    font-size: 12px;
+    font-family: Helvetica;
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+/* Stretch Freely */
+#exfour{
+    color: #B0E0E6;
+    font-size: 15px;
+    font-family: Helvetica;
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+#exfourdirec{
+    color: white;
+    font-size: 12px;
+    font-family: Helvetica;
+    font-weight: 400;
+    word-wrap: break-word
+}

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thankful List</title>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <style>
+        *{
+            font-family: "Quicksand", sans-serif;
+        }
+        
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: "Quicksand", sans-serif;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #7d9ab3;
+        }
+
+        .container {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 600px;
+            max-width: 90%;
+        }
+
+        h1 {
+            font-size: 2rem;
+            color: #7d9ab3;
+            margin-bottom: 20px;
+        }
+
+        input {
+            width: 100%;
+            max-width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            border: 2px solid #7d9ab3;
+            border-radius: 8px;
+            font-size: 16px;
+            color: #7d9ab3;
+            background-color: #f7f8fa;
+            box-sizing: border-box; 
+        }
+
+        input:focus {
+            outline: none;
+            border-color: #5a7a9f;
+        }
+
+        button {
+            padding: 12px 20px;
+            border: none;
+            border-radius: 8px;
+            background-color: #7d9ab3;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #5a7a9f;
+        }
+
+        .thankful-list {
+            margin-top: 20px;
+            text-align: left;
+            color: #7d9ab3;
+            font-size: 18px;
+        }
+
+        .thankful-item {
+            background-color: #f7f8fa;
+            padding: 8px;
+            margin: 5px 0;
+            border-radius: 5px;
+            border: 1px solid #e9edf1;
+            box-sizing: border-box;
+        }
+
+        footer {
+            margin-top: 30px;
+            font-size: 14px;
+            color: #7d9ab3;
+        }
+
+        footer a {
+            color: #7d9ab3;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Things/People You're Thankful For</h1>
+        <p>Write down three things or people you're thankful for in your social network.</p>
+
+        <input type="text" id="thankful1" placeholder="First thing/person you're thankful for">
+        <input type="text" id="thankful2" placeholder="Second thing/person you're thankful for">
+        <input type="text" id="thankful3" placeholder="Third thing/person you're thankful for">
+        
+        <button onclick="displayThankfulList()">Submit</button>
+
+        <div class="thankful-list" id="thankfulList"></div>
+    </div>
+
+    <script>
+        function displayThankfulList() {
+
+            const thankful1 = document.getElementById('thankful1').value;
+            const thankful2 = document.getElementById('thankful2').value;
+            const thankful3 = document.getElementById('thankful3').value;
+
+            if (!thankful1 || !thankful2 || !thankful3) {
+                alert("Please fill in all three fields!");
+                return;
+            }
+            
+            const list = `
+                <div class="thankful-item">${thankful1}</div>
+                <div class="thankful-item">${thankful2}</div>
+                <div class="thankful-item">${thankful3}</div>
+            `;
+
+            document.getElementById('thankfulList').innerHTML = list;
+            
+            document.getElementById('thankful1').value = '';
+            document.getElementById('thankful2').value = '';
+            document.getElementById('thankful3').value = '';
+        }
+    </script>
+
+</body>
+</html>

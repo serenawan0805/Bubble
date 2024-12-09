@@ -1,0 +1,27 @@
+body {
+    font-family: "Quicksand", sans-serif;
+    background-color: #7d9ab3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    color: #e9edf1;
+}
+
+.countdown-text {
+    font-family: "Quicksand", sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.instruction-text {
+    font-family: "Quicksand", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+}

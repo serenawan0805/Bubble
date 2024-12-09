@@ -1,0 +1,106 @@
+/* body {
+    width: 500px;
+    height: 500px;
+    background: #7d9ab3;
+    border: #e9edf1 10px dotted;
+    border-radius: 20px;
+    padding: 2.5%;
+    font-family: "Quicksand", sans-serif;
+    position: absolute;
+    top: 38.5%;
+    right: 0;
+    transform: translateY(-50%);
+} */
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #7d9ab3;
+    font-family: "Quicksand", sans-serif;
+}
+
+.container {
+    width: 500px;
+    height: auto;
+    background: #7d9ab3;
+    border: #e9edf1 10px dotted;
+    border-radius: 20px;
+    padding: 2.5%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    justify-items: center;
+    align-items: center;
+    position: relative;
+}
+
+#start {
+    color: #e9edf1;
+    font-size: 20px;
+    /* font-family: Helvetica; */
+    font-weight: 400;
+    word-wrap: break-word;
+    text-align: center;
+    margin-bottom: 30px;
+    grid-column: span 2;
+    margin-top: 5%;
+}
+
+.exercise-card {
+    width: 211px;
+    height: 118px;
+    background: #e9edf1;
+    border-radius: 10px;
+    border: 2px solid #e9edf1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+.card-title {
+    font-size: 15px;
+    color: #7d9ab3;
+    /* font-family: Helvetica; */
+    font-weight: 400;
+}
+
+.card-description {
+    font-size: 12px;
+    color: #7d9ab3;
+    /* font-family: Helvetica; */
+    font-weight: 400;
+    text-align: center;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.nav-arrow {
+    color: #e9edf1;
+    font-size: 35px;
+    position: absolute;
+    top: 10px;
+    transform: translateY(0);
+}
+
+
+#left-arrow {
+    left: 10px;
+}
+
+#home-icon {
+    left: 50%;
+    transform: translateX(-50%) translateY(0);
+}
+
+#right-arrow {
+    right: 10px;
+}
